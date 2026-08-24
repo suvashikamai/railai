@@ -1,0 +1,22 @@
+{
+  "name": "railai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "RailAI - AI-Powered Automatic Block Planning & Asset Availability Platform for Indian Railways (PSC26027)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:engine": "node scripts/engine-check.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
